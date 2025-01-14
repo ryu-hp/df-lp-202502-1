@@ -1,0 +1,65 @@
+@use "sass:math";
+
+//ブレイクポイント
+$breakpoints: (
+  md: 767,
+  lg: 959,
+);
+//メディアクエリー
+$mediaquerys: (
+  md: "screen and (max-width: #{map-get($breakpoints,'md')}px)",
+  lg: "screen and (max-width: #{map-get($breakpoints,'lg')}px)",
+);
+
+
+// @include mq(){}で書くとブレークポイントが反映される（初期値はmd）
+@mixin mq($mediaquery: md) {
+  @media #{map-get($mediaquerys, $mediaquery)} {
+    @content;
+  }
+}
+// remへの計算式（16pxを基準としている。10pxを基準とする場合は16を10に変更する）
+@function rem($pixels) {
+    @return math.div($pixels, 16) * 1rem;
+}
+@function strip-unit($number) {
+    @if type-of($number) == "number" and not unitless($number) {
+        @return math.div($number, $number * 0 + 1);
+    }
+    @return $number;
+}
+@function vw($window_width, $font_size) {
+    @return math.div($font_size, $window_width) * 100vw;
+}
+
+
+// 画面幅の変数を定義
+$minWindow: 375;
+$maxWindow: 1210;
+
+@function clp($base_font) {
+  @return clamp(
+    $base_font * 0.625 * 0.1rem,
+    ($base_font * 0.625 * 0.1rem) + math.div($base_font * 0.625 * 0.15, $maxWindow - $minWindow) * (100vw - $minWindow * 1px),
+    $base_font * 0.625 * 0.115rem
+  );
+}
+
+
+$base-font-family:  "Noto Sans JP", sans-serif;
+$second-font-family: "Roboto Condensed", sans-serif ;
+$bold : 700;
+$normal : 400;
+$light : 300;
+
+$color-black: #000;
+$color-white: #fff;
+$color-theme: #003566;
+$color-red: #6F4C4C;
+$color-bg_gray: #F5F7F7;
+$color-main_gray: #7E7C7C;
+
+$inner: 1000px;
+
+$padding-pc: rem(25);
+$padding-sp: rem(15);

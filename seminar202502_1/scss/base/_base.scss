@@ -1,0 +1,50 @@
+@use "../global" as * ;
+
+
+html {
+    font-size: 16px;
+    @media screen and (max-width: calc($inner + (25px * 2) + 240px)) {
+        font-size: vw(calc($inner + (25px * 2) + 240px), 16px);
+    }
+    @include mq(md) {
+        font-size: vw(767px, 16px);
+    }
+}
+img {
+    width: 100%;
+}
+a {
+    transition: opacity .3s ease;
+}
+a:hover {
+    opacity: 0.7;
+}
+.inner {
+    width: 100%;
+    max-width: calc($inner + ($padding-pc * 2));
+    padding-right: $padding-pc;
+    padding-left: $padding-pc;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    @include mq(md) {
+        padding-right: $padding-sp;
+        padding-left: $padding-sp;
+    }
+}
+
+.only-sp {
+    display: none;
+    @include mq(md) {
+        display: block;
+    }
+}
+.only-pc {
+    @include mq(md) {
+        display: none;
+    }
+}
+a {
+    text-decoration: none;
+}
+//base_laout
