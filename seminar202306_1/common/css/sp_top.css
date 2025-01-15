@@ -1,0 +1,468 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*=============================
+  main
+=============================*/
+/*
+#main {
+	height: 190vw;
+	position: relative;
+	background: url(../img/main_pic_bg_sp.png) no-repeat bottom center/cover;
+	padding-top: 80px;
+}
+#main .main_pic01{padding: 0 20px;}
+#main .main_pic01 img{
+	width: 100%;
+	height: auto;
+}
+#main .main_pic02{
+	position: absolute;
+	bottom:0;
+	left:0;
+	width: 100%;
+}
+#main .main_pic02 img{
+	width: 100%;
+	height: auto;
+}
+
+#main .txtArea{
+	position: absolute;
+	top:105vw;
+	left:0;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	color: #FFF;
+}
+#main .txtArea .times{
+	width: 100%;
+	text-align: center;
+	font-size: 0.14rem;
+	letter-spacing: 0.03em;
+}
+#main .txtArea .times .fl{
+	font-size: 0.16rem;
+	letter-spacing: 0.05em;
+}
+#main .txtArea .times .fl .fen_b{
+	font-size: 0.24rem;
+}
+#main .txtArea .times .txt01{margin-right: 0.14em;}
+#main .txtArea .times .txt03{margin-left: 0.13em;}
+
+#main .txtArea .dataList{margin-top: 0.5em;}
+
+#main .txtArea .dataList li:nth-child(n+2){
+	border-left: 2px dotted #BBBBBB;
+	padding-left: 1em;
+	margin-left: 1em;
+}
+#main .txtArea .dataList li .data{
+	align-items: center;
+	justify-content: center;
+}
+#main .txtArea .dataList li .data .fen_b{
+	font-size: 0.24rem;
+}
+#main .txtArea .dataList li .data .youbi{
+	aspect-ratio: 1/1;
+	width: fit-contents;
+	padding: 0.2em;
+	font-size: 0.13rem;
+	background: var(--DFC-BROWN);
+	isolation: isolate;
+	-webkit-border-radius: 9999px;
+	border-radius: 9999px;
+	overflow: hidden;
+	text-align: center;
+	margin-left: 0.25em;
+}
+#main .txtArea .dataList li .data .youbi.or{
+	background: linear-gradient(to right,  var(--DFC-OR01) 0%,var(--DFC-OR02) 100%);
+}
+
+#main .txtArea .dataList li .time {
+	font-size: 0.14rem;
+	letter-spacing: 0.03em;
+}*/
+
+/*=============================
+  contents
+=============================*/
+.bg_slit_gr{
+	background: url(../img/bg_slit_gr.svg) no-repeat top center/100% auto;
+}
+.bg_slit_blue{
+	background: url(../img/bg_slit_blue.svg) rgba(35, 55, 127,0.3) no-repeat top left/74% auto;
+}
+.bg_noise_blue{
+	background: url(../img/bg_noise.webp) rgba(35, 55, 127,0.3) no-repeat top center/100% auto;
+}
+.bg_gr{
+	background: url(../img/bg_slit_dgr.svg) #3B3D44 no-repeat top left/74% auto;
+}
+.bg_noise_blue{
+	background: url(../img/bg_noise.webp) rgba(35, 55, 127,0.3) no-repeat top left/100% auto;
+}
+
+/*cta
+=============================*/
+.cta{
+}
+.cta .pic{
+	position: relative;
+}
+.cta .pic img{
+	width: 100%;
+	height: auto;
+}
+.cta .bt{
+	position: absolute;
+	bottom:calc((30 / 390) * 100vw);
+	left:0;
+	width: 100%;
+	text-align: center;
+}
+.cta .bt a img{
+	width: calc((312 / 390) * 100vw);
+	height: auto;
+}
+
+/*pic01
+=============================*/
+.pic01 {
+	padding: 30px 15px 35px;
+}
+.pic01 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+/*pic02
+=============================*/
+.pic02 {
+	padding: 40px 20px 40px;
+}
+.pic02 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+/*pic03
+=============================*/
+.pic03 {
+	padding: 60px 20px 60px;
+}
+.pic03 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+
+/*pic04
+=============================*/
+.pic04 {
+	padding: 50px 20px 40px;
+}
+.pic04 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+/*pic05
+=============================*/
+.pic05 {
+	padding: 60px 20px 30px;
+}
+.pic05 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+
+/*pic06
+=============================*/
+.pic06 {
+	padding: 0px 0 0px;
+}
+.pic06 .pic .slide{text-align: center;}
+
+.pic06 .slideArea {
+	width: 100vw;
+	overflow-x: auto;
+	position: relative;
+}
+.pic06 .slideArea .slide {
+	width: fit-content;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.pic06 .slideArea .slide img{
+	width: 850px;
+	height: auto;
+}
+
+.pic06 .slider{
+	width: calc(100% - 100px);
+	height: 12px;
+	margin-left: 25px;
+	position: relative;
+	margin-top: 30px;
+}
+.pic06 .slider::before{
+	content: '';
+	display: block;
+	width: calc(100% + 50px);
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background: #f2f2f2;
+	isolation: isolate;
+	-webkit-border-radius: 9999px;
+	border-radius: 9999px;
+	z-index: 0;
+}
+.pic06 .slider a{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 10;
+	cursor: grab;
+	width: 50px;
+	height: 100%;
+	isolation: isolate;
+	-webkit-border-radius: 9999px;
+	border-radius: 9999px;
+	background: var(--DFC-BLUE);
+}
+
+/*pic07_1
+=============================*/
+.pic07_1 {
+	padding: 40px 15px 50px;
+}
+.pic07_1 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+
+/*pic07_2
+=============================*/
+.pic07_2 {
+	padding: 50px 15px 60px;
+	position: relative;
+}
+.pic07_2::before {
+	content: '';
+	display: block;
+	aspect-ratio: 1280/855;
+	width: 100%;
+	background: url(../img/pic07_2_bg.webp) no-repeat top center/100% auto;
+	position: absolute;
+	top:100px;
+	left:0;
+	z-index: -1;
+}
+.pic07_2 .pic img{
+	width: 100%;
+	height: auto;
+	max-width: 720px;
+}
+
+/*pic08
+=============================*/
+.pic08 {
+	padding: 50px 20px 45px;
+}
+.pic08 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+/*pic09
+=============================*/
+.pic09 {
+	padding: 25px 20px 40px;
+	background: #23377F;
+}
+.pic09 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+/*pic10
+=============================*/
+.pic10 {
+	padding: 60px 20px 40px;
+}
+.pic10 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+/*pic11
+=============================*/
+.pic11 {
+	padding: 60px 20px 25px;
+}
+.pic11 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+/*mapBloc
+=============================*/
+.mapBloc {
+	padding: 10px 0 0;
+}
+.mapBloc .maskOr{
+	background:  linear-gradient(to right, var(--DFC-OR01) 0%,var(--DFC-OR02) 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.mapBloc .txtBlue{
+	color: var(--DFC-BLUE);
+}
+.mapBloc .mapArea{
+}
+
+.mapBloc .mapArea .txtArea{
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em 3em;
+	isolation: isolate;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background: #FFFDEF;
+	text-align: center;
+}
+.mapBloc .mapArea .txtArea .txt01{
+	display: inline-block;
+	text-align: right;
+	font-size: 0.2rem;
+}
+
+.mapBloc .mapArea .txtArea .txt01 .jp.fs{font-size: 0.2rem;}
+.mapBloc .mapArea .txtArea .txt01 .num{
+	font-size: 0.4rem;
+	letter-spacing: 0.03em;
+}
+.mapBloc .mapArea .txtArea .txt01 .num span{letter-spacing: -0.05em;}
+.mapBloc .mapArea .txtArea .txt02{
+	text-align: center;
+	font-size: 0.2rem;
+	color: var(--DFC-BROWN);
+	margin-top: 0.5em;
+	padding-left: 0.5em;
+}
+.mapBloc .mapArea .map{
+	width: 290px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: right;
+	padding-left: 28px;
+	margin-top: 25px;
+}
+.mapBloc .mapArea .map img.mapImg{
+	width: 100%;
+	height: auto;
+}
+.mapBloc .mapArea .map .mapList li{
+	position: absolute;
+	letter-spacing: 0.05em;
+	white-space: nowrap;
+	text-align: center;
+	width: fit-content;
+}
+.mapBloc .mapArea .map .mapList li .jp{font-size: 0.14rem;}
+.mapBloc .mapArea .map .mapList li .num{font-size: 0.2rem;}
+.mapBloc .mapArea .map .mapList li.list01{
+	right:calc((90 / 290) * 100%);
+	top:calc((50 / 263) * 100%);
+}
+.mapBloc .mapArea .map .mapList li.list02{
+	right:calc((-25 / 290) * 100%);
+	top:calc((100 / 263) * 100%);
+}
+.mapBloc .mapArea .map .mapList li.list03{
+	right:calc((-10 / 290) * 100%);
+	top:calc((160 / 263) * 100%);
+}
+.mapBloc .mapArea .map .mapList li.list04{
+	right:calc((10 / 290) * 100%);
+	top:calc((195 / 263) * 100%);
+}
+.mapBloc .mapArea .map .mapList li.list05{
+	right:calc((185 / 290) * 100%);
+	top:calc((95 / 263) * 100%);
+}
+.mapBloc .mapArea .map .mapList li.list06{
+	right:calc((220 / 290) * 100%);
+	top:calc((140 / 263) * 100%);
+}
+.mapBloc .mapArea .map .mapList li.list07{
+	right:calc((125 / 290) * 100%);
+	top:calc((215 / 263) * 100%);
+}
+.mapBloc .mapArea .map .mapList li.list08{
+	right:calc((175 / 290) * 100%);
+	top:calc((255 / 263) * 100%);
+}
+
+/*pic12
+=============================*/
+.pic12 {
+	padding: 90px 20px 60px;
+}
+.pic12 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+/*banner01
+=============================*/
+.banner01 {
+	padding: 0 20px 0;
+}
+.banner01 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+/*pic13
+=============================*/
+.pic13 {
+	padding: 20px 20px 50px;
+}
+.pic13 .pic img{
+	width: 100%;
+	height: auto;
+}
+/*pic14
+=============================*/
+.pic14 {
+	padding: 55px 20px 40px;
+}
+.pic14 .pic img{
+	width: 100%;
+	height: auto;
+}
+
+/*pic15
+=============================*/
+.pic15 {
+	padding: 60px 20px 60px;
+}
+.pic15 .pic img{
+	width: 100%;
+	height: auto;
+}
