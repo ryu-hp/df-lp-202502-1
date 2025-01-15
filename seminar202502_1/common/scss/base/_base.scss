@@ -3,12 +3,6 @@
 
 html {
     font-size: 16px;
-    @media screen and (max-width: calc($inner + (25px * 2) + 240px)) {
-        font-size: vw(calc($inner + (25px * 2) + 240px), 16px);
-    }
-    @include mq(md) {
-        font-size: vw(767px, 16px);
-    }
 }
 img {
     width: 100%;

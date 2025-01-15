@@ -1,8 +1,62 @@
-@use "../global" as *;
+@charset "UTF-8";
+html {
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.inner {
+  width: 100%;
+  max-width: calc(1000px + 3.125rem);
+  padding-right: 1.5625rem;
+  padding-left: 1.5625rem;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media screen and (max-width: 767px) {
+  .inner {
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+  }
+}
+
+.only-sp {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .only-sp {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .only-pc {
+    display: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* Remove default padding */
@@ -51,10 +105,10 @@ a {
   color: inherit;
 }
 
-
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  text-decoration-skip-ink: auto;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -64,13 +118,11 @@ img {
   width: 100%;
 }
 
-
 /* Natural flow and rhythm in articles by default 
 article > * + * {
   margin-top: 1em;
 }
 */
-
 /* Inherit fonts for inputs and buttons */
 input,
 button,
@@ -81,9 +133,9 @@ select {
 
 /* Blur images when they have no alt attribute */
 img:not([alt]) {
-  filter: blur(10px);
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
 }
-
 
 /* フォームリセット */
 input,
@@ -104,13 +156,13 @@ textarea {
   resize: vertical;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type=checkbox],
+input[type=radio] {
   display: none;
 }
 
-input[type="submit"],
-input[type="button"],
+input[type=submit],
+input[type=button],
 label,
 button,
 select {
@@ -121,26 +173,11 @@ select::-ms-expand {
   display: none;
 }
 
-// テーマcss無効化
-.lp1 {
-  h2 {
-    border-top-color:transparent;
-    border-top: none !important;
-    font-family: $base-font-family !important;
-    background: transparent;
-    padding: 0;
-    border-bottom: none;
-  }
-  h3 {
-    border-bottom: none;
-    box-shadow: none;
-    padding-bottom: 0;
-    font-family: $base-font-family !important;
-  }
-  h3::after {
-    display: none;
-  }
+.sample {
+  color: #000;
+  font-size: clamp(1rem, 1rem + 0.0017964072 * (100vw - 375px), 1.15rem);
 }
-.vk-mobile-nav-menu-btn {
-  display: none !important;
-}
+
+/* -------------------------
+スマホ表示
+------------------------- */
