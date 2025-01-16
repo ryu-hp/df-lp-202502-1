@@ -27,6 +27,17 @@ a:hover {
     }
 }
 
+.only-sp {
+    display: none;
+    @include mq(md) {
+        display: block;
+    }
+}
+.only-pc {
+    @include mq(md) {
+        display: none;
+    }
+}
 a {
     text-decoration: none;
 }
