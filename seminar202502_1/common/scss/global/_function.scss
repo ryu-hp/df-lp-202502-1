@@ -59,7 +59,14 @@ $color-red: #6F4C4C;
 $color-bg_gray: #F5F7F7;
 $color-main_gray: #7E7C7C;
 
+:root {
+	--DFC-BROWN: #A5926D;
+	--DFC-OR01: #FFAC0A;
+	--DFC-OR02: #F96A1A;
+	--DFC-BLUE: #23377F;
+}
+
 $inner: 1000px;
 
 $padding-pc: rem(25);
-$padding-sp: rem(15);
+$padding-sp: rem(20);
