@@ -1,4 +1,11 @@
 @charset "UTF-8";
+:root {
+  --DFC-BROWN: #A5926D;
+  --DFC-OR01: #FFAC0A;
+  --DFC-OR02: #F96A1A;
+  --DFC-BLUE: #23377F;
+}
+
 html {
   font-size: 16px;
 }
@@ -28,23 +35,8 @@ a:hover {
 }
 @media screen and (max-width: 767px) {
   .inner {
-    padding-right: 0.9375rem;
-    padding-left: 0.9375rem;
-  }
-}
-
-.only-sp {
-  display: none;
-}
-@media screen and (max-width: 767px) {
-  .only-sp {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .only-pc {
-    display: none;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
   }
 }
 
@@ -173,9 +165,55 @@ select::-ms-expand {
   display: none;
 }
 
-.sample {
-  color: #000;
-  font-size: clamp(1rem, 1rem + 0.0017964072 * (100vw - 375px), 1.15rem);
+/*=======================================
+  共　通
+=======================================*/
+.sp {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .sp {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pc {
+    display: none;
+  }
+}
+
+/* =========================================
+メインCSS
+========================================= */
+.pic {
+  width: 100%;
+}
+
+.pic01 {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+/* =========================================
+CTA
+========================================= */
+.cta {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.cta_pic {
+  position: relative;
+}
+
+.cta_btn {
+  position: absolute;
+  left: 12.1333333333vw;
+  bottom: 10.4347826087%;
+  width: 42.9333333333%;
 }
 
 /* -------------------------
