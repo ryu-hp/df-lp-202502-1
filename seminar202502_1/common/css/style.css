@@ -215,6 +215,7 @@ select::-ms-expand {
   position: absolute;
   color: #fff;
   font-weight: 700;
+  text-align: center;
 }
 
 /* =========================================
