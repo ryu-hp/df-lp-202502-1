@@ -2,14 +2,38 @@
 /*=======================================
   共　通
 =======================================*/
+// レスポンシブ
 .sp {
-    display: none;
-    @include mq(md) {
-        display: block;
-    }
+  display: none;
+  @include mq(md) {
+    display: block;
+  }
 }
 .pc {
-    @include mq(md) {
-        display: none;
-    }
+  @include mq(md) {
+    display: none;
+  }
+}
+// 見出し背景
+.head_bg {
+  background-image: url(../seminar202502_1/common/img/title-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.head_bg::before {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-top: calc(132 / 750 * 100%);
+}
+.head_bg > p {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  color: $color-white;
+  font-weight: $bold;
+  text-align: center;
 }
