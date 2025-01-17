@@ -1,0 +1,5 @@
+@use "../global" as *;
+.sample {
+    color: $color-black;
+    font-size: clp(16);
+}
