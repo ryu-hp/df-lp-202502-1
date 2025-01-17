@@ -14,6 +14,7 @@
 .pic02-head p {
     font-size: calc(14 / 375 * 100vw);
     line-height: calc(11 / 6.3);
+    white-space: nowrap;
 }
 .pic02-head p .large{
     font-size: calc(16 / 375 * 100vw);
@@ -27,8 +28,8 @@
 }
 // pic04
 .pic04 {
-    padding-top: 37px;
-    margin-top: -37px;
+    padding-top: 22px;
+    margin-top: -22px;
     position: relative;
 }
 .pic04-head {
@@ -41,7 +42,47 @@
     font-size: calc(16 / 375 * 100vw);
     color: $color-white;
     background-color: #596482;
-    padding: 22px 35px;
+    padding: 10px 20px;
     border-radius: 30px;
 }
 
+// pic05 
+.pic05 {
+    position: relative;
+    z-index: 1;
+}
+.pic05::before {
+    position: absolute;
+    display: block;
+    width: 100%;
+    content: "";
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: calc(117 / 750 * 100%);
+    background: linear-gradient(101deg, #e1e6f9 0%, #f0e3fd 100%);
+    z-index: -1;
+}
+// pic06
+.pic06 {
+    padding-bottom: 80px;
+}
+.pic06-head p {
+    font-size: calc(14 / 375 * 100vw);
+    line-height: calc(11 / 6.3);
+    white-space: nowrap;
+}
+.pic06-head p .large{
+    font-size: calc(16 / 375 * 100vw);
+}
+.pic06-body {
+    padding: 86px 25px 79px;
+}
+.pic06-body > .pic {
+    max-width: 626px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.pic06.add-arrow::before {
+    background-color: #f8f8fe;
+}

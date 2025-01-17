@@ -248,6 +248,28 @@ header .cta_head_bt img {
   background: linear-gradient(101deg, #e1e6f9 0%, #f0e3fd 100%);
 }
 
+.add-arrow {
+  position: relative;
+}
+
+.add-arrow::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 24px;
+  height: 14px;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%);
+          clip-path: polygon(0 0, 100% 0%, 50% 100%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  z-index: 1;
+}
+
 /* =========================================
 メインCSS
 ========================================= */
@@ -264,6 +286,7 @@ header .cta_head_bt img {
 .pic02-head p {
   font-size: 3.7333333333vw;
   line-height: 1.746031746;
+  white-space: nowrap;
 }
 
 .pic02-head p .large {
@@ -279,8 +302,8 @@ header .cta_head_bt img {
 }
 
 .pic04 {
-  padding-top: 37px;
-  margin-top: -37px;
+  padding-top: 22px;
+  margin-top: -22px;
   position: relative;
 }
 
@@ -295,8 +318,55 @@ header .cta_head_bt img {
   font-size: 4.2666666667vw;
   color: #fff;
   background-color: #596482;
-  padding: 22px 35px;
+  padding: 10px 20px;
   border-radius: 30px;
+}
+
+.pic05 {
+  position: relative;
+  z-index: 1;
+}
+
+.pic05::before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  content: "";
+  bottom: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding-top: 15.6%;
+  background: linear-gradient(101deg, #e1e6f9 0%, #f0e3fd 100%);
+  z-index: -1;
+}
+
+.pic06 {
+  padding-bottom: 80px;
+}
+
+.pic06-head p {
+  font-size: 3.7333333333vw;
+  line-height: 1.746031746;
+  white-space: nowrap;
+}
+
+.pic06-head p .large {
+  font-size: 4.2666666667vw;
+}
+
+.pic06-body {
+  padding: 86px 25px 79px;
+}
+
+.pic06-body > .pic {
+  max-width: 626px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pic06.add-arrow::before {
+  background-color: #f8f8fe;
 }
 
 /* =========================================
@@ -307,24 +377,6 @@ CTA
   max-width: 100vw;
   margin-left: calc(50% - 50vw);
   position: relative;
-}
-
-.cta::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: -2px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 24px;
-  height: 14px;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%);
-          clip-path: polygon(0 0, 100% 0%, 50% 100%);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background: #fff;
-  z-index: 1;
 }
 
 .cta_pic {
