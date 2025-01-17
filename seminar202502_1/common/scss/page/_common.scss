@@ -2,6 +2,13 @@
 /*=======================================
   共　通
 =======================================*/
+// ページ全体背景
+body {
+  background-image: url(../img/bg_main.webp);
+  background-size: contain;
+  background-position: top;
+  background-repeat: repeat;
+}
 // レスポンシブ
 .sp {
   display: none;
@@ -16,7 +23,7 @@
 }
 // 見出し背景
 .head_bg {
-  background-image: url(../seminar202502_1/common/img/title-bg.webp);
+  background-image: url(../img/title-bg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

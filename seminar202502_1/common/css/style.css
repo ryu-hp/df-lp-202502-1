@@ -177,6 +177,13 @@ select::-ms-expand {
 /*=======================================
   共　通
 =======================================*/
+body {
+  background-image: url(../img/bg_main.webp);
+  background-size: contain;
+  background-position: top;
+  background-repeat: repeat;
+}
+
 .sp {
   display: none;
 }
@@ -193,7 +200,7 @@ select::-ms-expand {
 }
 
 .head_bg {
-  background-image: url(../seminar202502_1/common/img/title-bg.webp);
+  background-image: url(../img/title-bg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
