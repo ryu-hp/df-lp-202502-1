@@ -199,6 +199,20 @@ body {
   }
 }
 
+header .cta_head_bt {
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  z-index: 500;
+}
+
+header .cta_head_bt img {
+  width: 240px;
+  height: auto;
+  -webkit-filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 .head_bg {
   background-image: url(../img/title-bg.webp);
   background-size: cover;
@@ -247,12 +261,12 @@ body {
 }
 
 .pic02-head p {
-  font-size: 1.8666666667vw;
+  font-size: 3.7333333333vw;
   line-height: 1.746031746;
 }
 
 .pic02-head p .large {
-  font-size: 2.1333333333vw;
+  font-size: 4.2666666667vw;
 }
 
 .pic02-body {
@@ -277,8 +291,8 @@ CTA
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: 20px;
-  height: 22px;
+  width: 24px;
+  height: 14px;
   -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%);
           clip-path: polygon(0 0, 100% 0%, 50% 100%);
   -webkit-box-sizing: border-box;

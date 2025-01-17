@@ -21,6 +21,18 @@ body {
     display: none;
   }
 }
+// header
+header .cta_head_bt{
+	position: fixed;
+	top:20px;
+	right:25px;
+	z-index: 500;
+}
+header .cta_head_bt img{
+	width: 240px;
+	height: auto;
+	filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
 // 見出し背景
 .head_bg {
   background-image: url(../img/title-bg.webp);
