@@ -2,13 +2,6 @@
 /*=======================================
   共　通
 =======================================*/
-// ページ全体背景
-body {
-  background-image: url(../img/bg_main.webp);
-  background-size: contain;
-  background-position: top;
-  background-repeat: repeat;
-}
 // レスポンシブ
 .sp {
   display: none;
@@ -62,4 +55,11 @@ header .cta_head_bt img{
 }
 .pic img {
   width: 100%;
+}
+// 背景
+.bg_gray {
+  background-color: #e4e6ef;
+}
+.bg_gradation_purple {
+  background: linear-gradient(101deg, #e1e6f9 0%, #f0e3fd 100%);
 }

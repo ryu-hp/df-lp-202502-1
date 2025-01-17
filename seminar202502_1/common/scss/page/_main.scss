@@ -21,3 +21,27 @@
 .pic02-body {
     padding: 22px 26px;
 }
+// pic3 
+.pic03 {
+    padding: 82px 16px 116px;
+}
+// pic04
+.pic04 {
+    padding-top: 37px;
+    margin-top: -37px;
+    position: relative;
+}
+.pic04-head {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    display: inline-block;
+    font-size: calc(16 / 375 * 100vw);
+    color: $color-white;
+    background-color: #596482;
+    padding: 22px 35px;
+    border-radius: 30px;
+}
+
