@@ -10,3 +10,11 @@
     max-width: 100vw;
     margin-left: calc(50% - 50vw);
 }
+// pic02
+.pic02-head p {
+    font-size: calc(6.3 / 750 * 100vw);
+    line-height: calc(11 / 6.3);
+}
+.pic02-head p .large{
+    font-size: calc(8 / 750 * 100vw);
+}
