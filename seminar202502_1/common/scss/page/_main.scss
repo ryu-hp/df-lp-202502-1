@@ -109,6 +109,9 @@
 .pic10 {
     position: relative;
 }
+.pic10 .add-arrow::before {
+    background-color: #a2d5f4;
+}
 .pic10-cta {
     position: absolute;
     left: 50%;
