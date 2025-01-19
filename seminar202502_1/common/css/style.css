@@ -230,6 +230,7 @@ header .cta_head_bt img {
   color: #fff;
   font-weight: 700;
   text-align: center;
+  width: 100%;
 }
 
 .pic {
@@ -336,7 +337,7 @@ header .cta_head_bt img {
 }
 
 .pic06 {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .pic06-head p {
@@ -350,7 +351,7 @@ header .cta_head_bt img {
 }
 
 .pic06-body {
-  padding: 86px 25px 79px;
+  padding: 86px 25px 40px;
 }
 
 .pic06-body > .pic {
@@ -361,6 +362,38 @@ header .cta_head_bt img {
 
 .pic06.add-arrow::before {
   background-color: #f8f8fe;
+}
+
+.pic07-body {
+  padding: 40px 30px 30px;
+}
+
+.pic08 {
+  padding: 0 30px;
+}
+
+.pic09 {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.pic09-head {
+  display: inline-block;
+  text-align: center;
+  padding: 8px 16px;
+  white-space: nowrap;
+  color: #fff;
+  background-image: url(../img/title-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.pic09-body {
+  margin-top: 35px;
+  padding: 30px 26px;
 }
 
 /* =========================================
