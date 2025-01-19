@@ -396,6 +396,18 @@ header .cta_head_bt img {
   padding: 30px 26px;
 }
 
+.pic10 {
+  position: relative;
+}
+
+.pic10-cta {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 2.7491408935%;
+}
+
 /* =========================================
 CTA
 ========================================= */

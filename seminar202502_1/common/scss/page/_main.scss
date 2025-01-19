@@ -105,3 +105,13 @@
     margin-top: 35px;
     padding: 30px 26px;
 }
+//pic10 
+.pic10 {
+    position: relative;
+}
+.pic10-cta {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: calc(80 / 2910 * 100%);
+}
