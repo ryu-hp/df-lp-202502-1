@@ -31,6 +31,7 @@
     padding-top: 22px;
     margin-top: -22px;
     position: relative;
+    z-index: 1;
 }
 .pic04-head {
     position: absolute;
@@ -49,19 +50,7 @@
 // pic05 
 .pic05 {
     position: relative;
-    z-index: 1;
-}
-.pic05::before {
-    position: absolute;
-    display: block;
-    width: 100%;
-    content: "";
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding-top: calc(117 / 750 * 100%);
-    background: linear-gradient(101deg, #e1e6f9 0%, #f0e3fd 100%);
-    z-index: -1;
+    margin-top:calc(-147 / 750 * 100%);
 }
 // pic06
 .pic06 {
