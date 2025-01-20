@@ -49,6 +49,7 @@ header .cta_head_bt img{
   font-weight: $bold;
   text-align: center;
   width: 100%;
+  font-family: "Yu Mincho", "游明朝", serif;
 }
 // 画像設定
 .pic {
@@ -87,4 +88,8 @@ header .cta_head_bt img{
   box-sizing: border-box;
   background: $color-white;
   z-index: 1;
+}
+// カラー
+.text-color-blue {
+  color: #4e73ee;
 }

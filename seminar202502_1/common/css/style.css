@@ -231,6 +231,7 @@ header .cta_head_bt img {
   font-weight: 700;
   text-align: center;
   width: 100%;
+  font-family: "Yu Mincho", "游明朝", serif;
 }
 
 .pic {
@@ -276,6 +277,10 @@ header .cta_head_bt img {
           box-sizing: border-box;
   background: #fff;
   z-index: 1;
+}
+
+.text-color-blue {
+  color: #4e73ee;
 }
 
 /* =========================================
@@ -423,6 +428,26 @@ header .cta_head_bt img {
 
 .pic14-body {
   padding: 40px 30px;
+}
+
+.pic17-body {
+  background-image: url(../img/bg-4.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 40px 30px 32px;
+}
+
+.pic17-body p:nth-child(1) {
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 42px;
+}
+
+.pic17-body p:nth-child(2) {
+  font-size: 14px;
+  line-height: 2;
 }
 
 /* =========================================
