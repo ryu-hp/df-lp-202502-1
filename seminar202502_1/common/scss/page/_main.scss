@@ -111,9 +111,10 @@
 }
 .pic10 .add-arrow::before {
     background-color: #a2d5f4;
+    bottom: 22%;
 }
 .pic10-cta {
-    position: absolute;
+    position: absolute !important;
     left: 50%;
     transform: translateX(-50%);
     bottom: calc(80 / 2910 * 100%);
