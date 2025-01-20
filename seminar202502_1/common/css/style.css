@@ -413,6 +413,15 @@ header .cta_head_bt img {
   bottom: 2.7491408935%;
 }
 
+.pic11-body {
+  padding: 40px 30px;
+}
+
+.pic12-body {
+  position: relative;
+  padding: 40px 30px;
+}
+
 /* =========================================
 CTA
 ========================================= */
