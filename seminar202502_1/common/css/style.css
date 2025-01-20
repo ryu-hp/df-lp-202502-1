@@ -214,6 +214,10 @@ header .cta_head_bt img {
   position: relative;
 }
 
+.head_bg-2 {
+  background-image: url(../img/title-bg-2.webp);
+}
+
 .head_bg::before {
   content: "";
   display: block;
@@ -441,13 +445,16 @@ header .cta_head_bt img {
 
 .pic17-body p:nth-child(1) {
   font-size: 16px;
+  font-size: 4.2666666667vw;
   line-height: 2;
   margin-bottom: 42px;
 }
 
 .pic17-body p:nth-child(2) {
-  font-size: 14px;
+  font-size: 12px;
+  font-size: 3.2vw;
   line-height: 2;
+  text-align: right;
 }
 
 /* =========================================

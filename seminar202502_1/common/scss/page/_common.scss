@@ -34,6 +34,9 @@ header .cta_head_bt img{
   background-repeat: no-repeat;
   position: relative;
 }
+.head_bg-2 {
+  background-image: url(../img/title-bg-2.webp);
+}
 .head_bg::before {
   content: "";
   display: block;

@@ -144,10 +144,13 @@
 }
 .pic17-body p:nth-child(1){
     font-size: 16px;
+    font-size: calc(16 / 375 * 100vw);
     line-height: 2;
     margin-bottom: 42px;
 }
 .pic17-body p:nth-child(2){
-    font-size: 14px;
+    font-size: 12px;
+    font-size: calc(12 / 375 * 100vw);
     line-height: 2;
+    text-align: right;
 }
