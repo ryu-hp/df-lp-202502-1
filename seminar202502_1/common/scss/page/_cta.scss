@@ -18,5 +18,10 @@ CTA
   width: calc(322 / 750 * 100%);
 }
 .cta_head_bt {
-  max-width: 240px;
+  max-width: 200px;
+}
+@media screen and (max-width:767px) {
+  .cta_head_bt {
+    max-width: 130px;
+  }
 }
