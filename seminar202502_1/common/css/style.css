@@ -728,6 +728,14 @@ header .cta_head_bt img {
   gap: 38px;
 }
 
+.pic22-video {
+  width: calc((100% - 38px) / 2);
+}
+
+.pic22-video iframe {
+  width: 100%;
+}
+
 @media screen and (max-width: 767px) {
   .pic22 {
     padding: 0 20px 40px;

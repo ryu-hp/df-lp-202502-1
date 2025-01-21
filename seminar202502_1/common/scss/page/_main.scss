@@ -400,6 +400,12 @@
     justify-content: center;
     gap: 38px;
 }
+.pic22-video {
+    width: calc((100% - 38px) / 2);
+}
+.pic22-video iframe {
+    width: 100%;
+}
 @include mq(md) {
     .pic22 {
         padding:0 20px 40px;
