@@ -200,12 +200,15 @@
     padding-bottom: 97px;
 }
 @include mq(md) {
+    .pic09 {
+        margin-top: 20px;
+    }
     .pic09-head {
         font-size: 24px;
         padding: 8px 16px;
     }
     .pic09-body {
-        margin-top: 35px;
+        margin-top: 0;
         padding: 30px 26px;
     }
 }
@@ -315,7 +318,7 @@
         padding: 40px 20px;
     }
     .pic14-event {
-        margin-top: 40px;
+        margin-top: 20px;
         padding: 0 20px;
     }
     .pic14-cta {
