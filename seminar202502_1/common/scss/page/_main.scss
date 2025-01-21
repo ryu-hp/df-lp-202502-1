@@ -52,7 +52,10 @@
         margin-bottom: 40px;
     }
     .pic03 {
-        padding: 41px 16px 58px;
+        padding: 40px 16px 58px;
+    }
+    .pic03-line {
+        margin-top: -20px;
     }
 }
 // pic04
@@ -129,6 +132,14 @@
 @media screen and (max-width:767px) {
     .pic06 {
         padding-bottom: 40px;
+    }
+    .pic06-head p {
+        font-size: calc(14 / 375 * 100vw);
+        line-height: calc(11 / 6.3);
+        white-space: nowrap;
+    }
+    .pic06-head p .large{
+        font-size: calc(16 / 375 * 100vw);
     }
     .pic06-body {
         padding: 86px 25px 40px;
@@ -383,7 +394,7 @@
 }
 @include mq(md) {
     .pic21-body {
-        padding: 0;
+        padding: 40px 20px;
     }
 }
 //pic22

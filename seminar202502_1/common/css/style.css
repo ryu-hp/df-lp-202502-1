@@ -273,6 +273,12 @@ header .cta_head_bt img {
   .pic {
     max-width: 100%;
   }
+  .pic-line {
+    margin-top: 24px;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+  }
 }
 .bg_gray {
   background-color: #e4e6ef;
@@ -355,7 +361,10 @@ header .cta_head_bt img {
     margin-bottom: 40px;
   }
   .pic03 {
-    padding: 41px 16px 58px;
+    padding: 40px 16px 58px;
+  }
+  .pic03-line {
+    margin-top: -20px;
   }
 }
 .pic04 {
@@ -436,6 +445,14 @@ header .cta_head_bt img {
 @media screen and (max-width: 767px) {
   .pic06 {
     padding-bottom: 40px;
+  }
+  .pic06-head p {
+    font-size: 3.7333333333vw;
+    line-height: 1.746031746;
+    white-space: nowrap;
+  }
+  .pic06-head p .large {
+    font-size: 4.2666666667vw;
   }
   .pic06-body {
     padding: 86px 25px 40px;
@@ -704,7 +721,7 @@ header .cta_head_bt img {
 
 @media screen and (max-width: 767px) {
   .pic21-body {
-    padding: 0;
+    padding: 40px 20px;
   }
 }
 .pic22 {
