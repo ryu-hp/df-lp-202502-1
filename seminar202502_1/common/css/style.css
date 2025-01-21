@@ -387,6 +387,7 @@ header .cta_head_bt img {
   background-color: #596482;
   padding: 40px 75px;
   border-radius: 40px;
+  font-family: "Yu Mincho", "游明朝", serif;
 }
 
 @media screen and (max-width: 767px) {
