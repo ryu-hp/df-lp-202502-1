@@ -240,7 +240,12 @@
 }
 //pic11 
 .pic11-body {
-    padding: 40px 30px;
+    padding: 100px 30px;
+}
+@include mq(md) {
+    .pic11-body {
+        padding: 40px 30px;
+    }
 }
 //pic12 
 //pic13

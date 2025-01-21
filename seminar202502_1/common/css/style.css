@@ -542,9 +542,14 @@ header .cta_head_bt img {
   }
 }
 .pic11-body {
-  padding: 40px 30px;
+  padding: 100px 30px;
 }
 
+@media screen and (max-width: 767px) {
+  .pic11-body {
+    padding: 40px 30px;
+  }
+}
 .pic14 {
   padding-bottom: 40px;
 }
