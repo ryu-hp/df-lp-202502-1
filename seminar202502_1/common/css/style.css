@@ -271,7 +271,7 @@ header .cta_head_bt img {
 
 @media screen and (max-width: 767px) {
   .pic {
-    max-width: 100%;
+    max-width: 634px;
   }
   .pic-line {
     margin-top: 24px;
@@ -455,7 +455,7 @@ header .cta_head_bt img {
     font-size: 4.2666666667vw;
   }
   .pic06-body {
-    padding: 86px 25px 40px;
+    padding: 40px 20px;
   }
   .pic06-body > .pic {
     max-width: 626px;
@@ -469,7 +469,7 @@ header .cta_head_bt img {
 
 @media screen and (max-width: 767px) {
   .pic07-body {
-    padding: 98px 30px 98px;
+    padding: 40px 20px;
   }
 }
 .pic08 {
@@ -482,8 +482,8 @@ header .cta_head_bt img {
 
 @media screen and (max-width: 767px) {
   .pic08 {
-    background: none;
-    padding: 0 30px;
+    background-image: url(../img/bg-3.webp);
+    padding: 15px 20px 60px;
   }
 }
 .pic09 {
@@ -545,27 +545,21 @@ header .cta_head_bt img {
 }
 
 @media screen and (max-width: 767px) {
+  .pic10-ctas {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 2.6809651475%;
+    width: 100%;
+  }
   .pic10-cta {
     margin-top: 0;
     width: 100%;
-    max-width: 100%;
     margin-left: 0;
-    position: absolute !important;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    bottom: 2.7491408935%;
   }
   .pic10-line {
-    margin-top: 0;
     width: 100%;
-    max-width: 100%;
-    margin-left: 0;
-    position: absolute !important;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    bottom: 0.6872852234%;
   }
   .pic10-body {
     padding: 0;

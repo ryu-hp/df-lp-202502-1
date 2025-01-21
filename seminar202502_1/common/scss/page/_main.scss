@@ -142,7 +142,7 @@
         font-size: calc(16 / 375 * 100vw);
     }
     .pic06-body {
-        padding: 86px 25px 40px;
+        padding: 40px 20px;
     }
     .pic06-body > .pic {
         max-width: 626px;
@@ -157,7 +157,7 @@
 }
 @include mq(md) {
     .pic07-body {
-        padding: 98px 30px 98px;
+        padding: 40px 20px;
     }
 }
 // pic08
@@ -170,8 +170,8 @@
 }
 @include mq(md) {
     .pic08 {
-        background: none;
-        padding: 0 30px;
+        background-image: url(../img/bg-3.webp);
+        padding: 15px 20px 60px;
     }
     
 }
@@ -229,25 +229,20 @@
     margin-top: 24px;
 }
 @include mq(md) {
+    .pic10-ctas {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: calc(80 / 2984 * 100%);
+        width: 100%;
+    }
     .pic10-cta {
         margin-top: 0;
         width: 100%;
-        max-width: 100%;
         margin-left: 0;
-        position: absolute !important;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: calc(80 / 2910 * 100%);
     }
     .pic10-line {
-        margin-top: 0;
         width: 100%;
-        max-width: 100%;
-        margin-left: 0;
-        position: absolute !important;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: calc(20 / 2910 * 100%);
     }
     .pic10-body {
         padding: 0;
