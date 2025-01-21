@@ -550,6 +550,30 @@ header .cta_head_bt img {
     padding: 40px 30px;
   }
 }
+.pic12-body {
+  padding: 100px 30px;
+  background-color: #eef2fc;
+}
+
+@media screen and (max-width: 767px) {
+  .pic12-body {
+    padding: 0;
+  }
+}
+.pic13-body {
+  padding: 100px 30px;
+  background-image: url(../img/bg-5-PC.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .pic13-body {
+    padding: 0;
+    background: none;
+  }
+}
 .pic14 {
   padding-bottom: 40px;
 }
