@@ -265,6 +265,10 @@ header .cta_head_bt img {
   width: 100%;
 }
 
+.pic-line {
+  margin-top: 24px;
+}
+
 @media screen and (max-width: 767px) {
   .pic {
     max-width: 100%;
@@ -407,6 +411,10 @@ header .cta_head_bt img {
     margin-top: 0;
   }
 }
+.pic06 {
+  padding-bottom: 70px;
+}
+
 .pic06-head p {
   font-size: 2.8333333333vw;
   line-height: 1.746031746;
