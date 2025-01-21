@@ -388,7 +388,7 @@
 }
 //pic22
 .pic22 {
-    padding-bottom:0 30px 97px;
+    padding:0 30px 97px;
 }
 .pic22-head > .pic {
     max-width: 562px;
@@ -399,15 +399,23 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 38px;
+    margin-top: 18px;
 }
 .pic22-video {
     width: calc((100% - 38px) / 2);
 }
 .pic22-video iframe {
     width: 100%;
+    aspect-ratio: 650 / 365;
 }
 @include mq(md) {
     .pic22 {
         padding:0 20px 40px;
+    }
+    .pic22-body.pic {
+        gap: 49px;
+    }
+    .pic22-video {
+        width:100%;
     }
 }

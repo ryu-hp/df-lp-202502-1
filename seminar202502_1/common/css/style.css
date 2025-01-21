@@ -708,7 +708,7 @@ header .cta_head_bt img {
   }
 }
 .pic22 {
-  padding-bottom: 0 30px 97px;
+  padding: 0 30px 97px;
 }
 
 .pic22-head > .pic {
@@ -726,6 +726,7 @@ header .cta_head_bt img {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 38px;
+  margin-top: 18px;
 }
 
 .pic22-video {
@@ -734,11 +735,18 @@ header .cta_head_bt img {
 
 .pic22-video iframe {
   width: 100%;
+  aspect-ratio: 650/365;
 }
 
 @media screen and (max-width: 767px) {
   .pic22 {
     padding: 0 20px 40px;
+  }
+  .pic22-body.pic {
+    gap: 49px;
+  }
+  .pic22-video {
+    width: 100%;
   }
 }
 /* =========================================
