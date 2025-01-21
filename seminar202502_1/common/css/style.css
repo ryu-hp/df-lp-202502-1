@@ -646,6 +646,10 @@ header .cta_head_bt img {
     padding: 0;
   }
 }
+.pic17 {
+  padding-bottom: 40px;
+}
+
 .pic17-body {
   background-image: url(../img/bg-4-PC.webp);
   background-size: cover;
@@ -664,6 +668,10 @@ header .cta_head_bt img {
   font-size: 16px;
   line-height: 2;
   text-align: right;
+}
+
+.pic17-bannner {
+  margin-top: 24px;
 }
 
 @media screen and (max-width: 767px) {

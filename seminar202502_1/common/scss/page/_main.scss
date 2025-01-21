@@ -334,6 +334,9 @@
     }
 }
 //pic17 
+.pic17 {
+    padding-bottom: 40px;
+}
 .pic17-body {
     background-image: url(../img/bg-4-PC.webp);
     background-size: cover;
@@ -350,6 +353,9 @@
     font-size: 16px;
     line-height: 2;
     text-align: right;
+}
+.pic17-bannner {
+    margin-top: 24px;
 }
 @include mq(md) {
     .pic17-body {
