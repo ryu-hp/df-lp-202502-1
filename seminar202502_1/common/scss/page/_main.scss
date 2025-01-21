@@ -24,7 +24,7 @@
 }
 // pic3 
 .pic03 {
-    padding: 82px 16px 116px;
+    padding: 41px 16px 58px;
 }
 // pic04
 .pic04 {
@@ -140,11 +140,11 @@
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 40px 30px 32px;
+    padding: 40px calc(30 / 375 * 100vw) 32px;
 }
 .pic17-body p:nth-child(1){
-    font-size: 16px;
-    font-size: calc(16 / 375 * 100vw);
+    font-size: 14px;
+    font-size: calc(14 / 375 * 100vw);
     line-height: 2;
     margin-bottom: 42px;
 }

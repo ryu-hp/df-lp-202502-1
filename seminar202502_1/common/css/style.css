@@ -315,7 +315,7 @@ header .cta_head_bt img {
 }
 
 .pic03 {
-  padding: 82px 16px 116px;
+  padding: 41px 16px 58px;
 }
 
 .pic04 {
@@ -444,8 +444,8 @@ header .cta_head_bt img {
 }
 
 .pic17-body p:nth-child(1) {
-  font-size: 16px;
-  font-size: 4.2666666667vw;
+  font-size: 14px;
+  font-size: 3.7333333333vw;
   line-height: 2;
   margin-bottom: 42px;
 }
