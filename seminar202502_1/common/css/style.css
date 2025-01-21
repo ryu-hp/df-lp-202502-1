@@ -297,8 +297,17 @@ header .cta_head_bt img {
   width: 100vw;
   max-width: 100vw;
   margin-left: calc(50% - 50vw);
+  background-image: url(../img/bg-6-PC.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 767px) {
+  .pic01 {
+    background: none;
+  }
+}
 .pic02-head p {
   font-size: 3.7333333333vw;
   line-height: 1.746031746;
