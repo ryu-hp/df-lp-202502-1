@@ -365,28 +365,25 @@ header .cta_head_bt img {
 }
 .pic05 {
   padding-bottom: 5.3240740741%;
+  margin-top: -22.5833333333%;
 }
 
-.pic05 .pic {
-  margin-top: -31.3657407407%;
-}
-
-.pic05 .pic::before {
+.pic05::before {
   display: block;
   content: "";
   width: 100%;
-  padding-top: 31.3657407407%;
+  padding-top: 22.5833333333%;
 }
 
 @media screen and (max-width: 767px) {
   .pic05 {
     margin-top: -19.6%;
   }
+  .pic05::before {
+    display: none;
+  }
   .pic05 .pic {
     margin-top: 0;
-  }
-  .pic05 .pic::before {
-    display: none;
   }
 }
 .pic06-head p {

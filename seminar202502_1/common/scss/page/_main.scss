@@ -59,25 +59,23 @@
 .pic05 {
     // margin-top:calc(-147 / 1200 * 100%);
     padding-bottom:  calc(46 / 864 * 100%);
+    margin-top:calc(-271 / 1200 * 100%);
 }
-.pic05 .pic {
-    margin-top:calc(-271 / 864 * 100%);
-}
-.pic05 .pic::before {
+.pic05::before {
     display: block;
     content: "";
     width: 100%;
-    padding-top: calc(271 / 864 * 100%);
+    padding-top: calc(271 / 1200 * 100%);
 }
 @media screen and (max-width:767px) {
     .pic05 {
         margin-top:calc(-147 / 750 * 100%);
     }
+    .pic05::before {
+        display: none;
+    }
     .pic05 .pic {
         margin-top:0;
-    }
-    .pic05 .pic::before {
-        display: none;
     }
 }
 // pic06
