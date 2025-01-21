@@ -273,10 +273,36 @@
     }
 //pic14 
 .pic14 {
-    padding-bottom: 40px;
+    padding-bottom: 68px;
 }
 .pic14-body {
-    padding: 40px 30px;
+    padding-top: 64px 30px 0;
+}
+.pic14-body .pic {
+    max-width: 865px;
+}
+.pic14-event {
+    margin-top: 71px;
+}
+.pic14-event .pic {
+    max-width: 572px;
+}
+.pic14-bannner {
+    margin-top: 24px;
+}
+@include mq(md) {
+    .pic14 {
+        padding-bottom: 40px;
+    }
+    .pic14-body {
+        padding: 40px 30px;
+    }
+    .pic14-event {
+        margin-top: 40px;
+    }
+    .pic14-event .pic {
+        max-width: 100%;
+    }
 }
 //pic17 
 .pic17-body {
