@@ -327,7 +327,7 @@ header .cta_head_bt img {
 }
 
 .pic02-body {
-  padding: 22px 26px;
+  padding: 32px 30px 90px;
 }
 
 @media screen and (max-width: 767px) {
@@ -337,6 +337,9 @@ header .cta_head_bt img {
   }
   .pic02-head p .large {
     font-size: 4.2666666667vw;
+  }
+  .pic02-body {
+    padding: 22px 26px;
   }
 }
 .pic03 {
@@ -702,6 +705,32 @@ header .cta_head_bt img {
 @media screen and (max-width: 767px) {
   .pic21-body {
     padding: 0;
+  }
+}
+.pic {
+  padding-bottom: 0 30px 97px;
+}
+
+.pic22-head > .pic {
+  max-width: 562px;
+}
+
+.pic22-body.pic {
+  max-width: 862px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 38px;
+}
+
+@media screen and (max-width: 767px) {
+  .pic {
+    padding: 0 20px 40px;
   }
 }
 /* =========================================
