@@ -20,7 +20,7 @@ CTA
 .cta_head_bt {
   max-width: 320px;
 }
-@media screen and (max-width:767px) {
+@include mq(md) {
   .cta_btn {
     left: calc(91 / 750 * 100vw);
     bottom: calc(60 / 575 * 100%);

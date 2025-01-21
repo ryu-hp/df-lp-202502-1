@@ -332,9 +332,21 @@ header .cta_head_bt img {
   }
 }
 .pic03 {
-  padding: 41px 16px 58px;
+  padding: 24px 25px 96px;
 }
 
+.pic03 .pic:nth-child(1) {
+  margin-bottom: 71px;
+}
+
+@media screen and (max-width: 767px) {
+  .pic03 .pic:nth-child(1) {
+    margin-bottom: 40px;
+  }
+  .pic03 {
+    padding: 41px 16px 58px;
+  }
+}
 .pic04 {
   padding-top: 60px;
   margin-top: -60px;
