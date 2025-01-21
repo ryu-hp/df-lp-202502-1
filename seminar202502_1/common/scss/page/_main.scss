@@ -88,13 +88,13 @@
 .pic05 {
     // margin-top:calc(-147 / 1200 * 100%);
     padding-bottom:  calc(46 / 864 * 100%);
-    margin-top:calc(-271 / 1200 * 100%);
+    margin-top:calc(-269 / 1200 * 100%);
 }
 .pic05::before {
     display: block;
     content: "";
     width: 100%;
-    padding-top: calc(271 / 1200 * 100%);
+    padding-top: calc(269 / 1200 * 100%);
 }
 @media screen and (max-width:767px) {
     .pic05 {
@@ -138,9 +138,25 @@
 .pic07-body {
     padding: 40px 30px 30px;
 }
+@include mq(md) {
+    .pic07-body {
+        padding: 98px 30px 98px;
+    }
+}
 // pic08
 .pic08 {
-    padding: 0 30px;
+    padding: 96 30px 152px;
+    background-image: url(../img/bg-3-PC.webp);
+    background-size: cover;
+    background-position:bottom center;
+    background-repeat: no-repeat;
+}
+@include mq(md) {
+    .pic08 {
+        background: none;
+        padding: 0 30px;
+    }
+    
 }
 // pic09 
 .pic09 {
