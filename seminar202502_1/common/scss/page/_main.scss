@@ -276,7 +276,7 @@
     padding-bottom: 68px;
 }
 .pic14-body {
-    padding-top: 64px 30px 0;
+    padding: 64px 30px 0;
 }
 .pic14-body .pic {
     max-width: 865px;
@@ -286,6 +286,9 @@
 }
 .pic14-event .pic {
     max-width: 572px;
+}
+.pic14-cta {
+    margin-top: 74px;
 }
 .pic14-bannner {
     margin-top: 24px;
@@ -300,28 +303,64 @@
     .pic14-event {
         margin-top: 40px;
     }
+    .pic14-cta {
+        margin-top: 40px;
+    }
     .pic14-event .pic {
         max-width: 100%;
     }
 }
+//pic15
+.pic15-body {
+    background-image: url(../img/bg-7-PC.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 30px;
+}
+@include mq(md) {
+    .pic15-body {
+        padding: 0;
+        background: none;
+    }
+}
+//pic16
+.pic16-body {
+    padding: 70px 30px;
+}
+@include mq(md) {
+    .pic16-body {
+        padding: 0;
+    }
+}
 //pic17 
 .pic17-body {
-    background-image: url(../img/bg-4.webp);
+    background-image: url(../img/bg-4-PC.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 40px calc(20 / 375 * 100vw) 32px;
+    padding: 70px 30px 64px;
 }
 .pic17-body p:nth-child(1){
-    font-size: 14px;
-    font-size: calc(14 / 375 * 100vw);
-    line-height: 2;
-    margin-bottom: 42px;
+    font-size: 16px;
+    margin-bottom: 60px;
 }
 .pic17-body p:nth-child(2){
-    font-size: 12px;
-    font-size: calc(12 / 375 * 100vw);
+    font-size: 16px;
     line-height: 2;
     text-align: right;
+}
+@include mq(md) {
+    .pic17-body {
+        background-image: url(../img/bg-4.webp);
+        padding: 40px calc(20 / 375 * 100vw) 32px;
+    }
+    .pic17-body p:nth-child(1){
+        font-size: calc(14 / 375 * 100vw);
+        margin-bottom: 42px;
+    }
+    .pic17-body p:nth-child(2){
+        font-size: calc(12 / 375 * 100vw);
+    }
 }
