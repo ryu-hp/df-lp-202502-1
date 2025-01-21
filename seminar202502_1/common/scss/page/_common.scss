@@ -56,10 +56,23 @@ header .cta_head_bt img{
 }
 // 画像設定
 .pic {
-  width: 100%;
+  max-width: 864px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.pic.cta_pic {
+  max-width: 100%;
+}
+.pic.pic-100 {
+  max-width: 100%;
 }
 .pic img {
   width: 100%;
+}
+@media screen and (max-width:767px) {
+  .pic {
+    max-width: 100%;
+  }
 }
 // 背景
 .bg_gray {
@@ -67,6 +80,7 @@ header .cta_head_bt img{
 }
 .bg_gradation_purple {
   background: linear-gradient(101deg, #e1e6f9 0%, #f0e3fd 100%);
+  background: linear-gradient(101deg, rgba(225, 230, 249, 0.33) 0%, rgba(240, 227, 253, 0.33) 100%);
 }
 .bg_purple_image {
   background-image: url(../img/bg-2.webp);
@@ -95,18 +109,4 @@ header .cta_head_bt img{
 // カラー
 .text-color-blue {
   color: #4e73ee;
-}
-// pic レイアウト
-.pic {
-  max-width: 864px;
-  margin-right:auto;
-  margin-left:auto;
-}
-.pic.cta_pic {
-  max-width: 100%;
-}
-@media screen and (max-width:767px) {
-  .pic {
-    max-width: 100%;
-  }
 }
