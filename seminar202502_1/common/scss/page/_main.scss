@@ -336,6 +336,9 @@
     background-repeat: no-repeat;
     padding: 70px 30px;
 }
+.pic15-body .pic {
+    max-width: 608px;
+}
 @include mq(md) {
     .pic15-body {
         padding: 0;
@@ -345,6 +348,9 @@
 //pic16
 .pic16-body {
     padding: 70px 30px;
+}
+.pic16-body .pic {
+    max-width: 608px;
 }
 @include mq(md) {
     .pic16-body {

@@ -659,6 +659,10 @@ header .cta_head_bt img {
   padding: 70px 30px;
 }
 
+.pic15-body .pic {
+  max-width: 608px;
+}
+
 @media screen and (max-width: 767px) {
   .pic15-body {
     padding: 0;
@@ -667,6 +671,10 @@ header .cta_head_bt img {
 }
 .pic16-body {
   padding: 70px 30px;
+}
+
+.pic16-body .pic {
+  max-width: 608px;
 }
 
 @media screen and (max-width: 767px) {
