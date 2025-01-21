@@ -687,6 +687,15 @@ header .cta_head_bt img {
     font-size: 3.2vw;
   }
 }
+.pic21-body {
+  padding: 70px 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .pic21-body {
+    padding: 0;
+  }
+}
 /* =========================================
 CTA
 ========================================= */

@@ -100,24 +100,6 @@ header .cta_head_bt img{
   background-position: center;
   background-repeat: no-repeat;
 }
-// CTA前矢印
-// .add-arrow {
-//   position: relative;
-// }
-// .add-arrow::before {
-//   content: "";
-//   display: block;
-//   position: absolute;
-//   bottom: -2px;
-//   left: 50%;
-//   transform: translateX(-50%);
-//   width: 24px;
-//   height: 14px;
-//   clip-path: polygon(0 0, 100% 0%, 50% 100%);
-//   box-sizing: border-box;
-//   background: $color-white;
-//   z-index: 1;
-// }
 // カラー
 .text-color-blue {
   color: #4e73ee;
