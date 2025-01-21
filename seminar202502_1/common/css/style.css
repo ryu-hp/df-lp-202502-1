@@ -488,16 +488,21 @@ CTA
 
 .cta_btn {
   position: absolute;
-  left: 12.1333333333vw;
-  bottom: 10.4347826087%;
-  width: 42.9333333333%;
+  left: 22.9166666667vw;
+  bottom: 11.1607142857%;
+  width: 30.75%;
 }
 
 .cta_head_bt {
-  max-width: 200px;
+  max-width: 320px;
 }
 
 @media screen and (max-width: 767px) {
+  .cta_btn {
+    left: 12.1333333333vw;
+    bottom: 10.4347826087%;
+    width: 42.9333333333%;
+  }
   .cta_head_bt {
     max-width: 130px;
   }

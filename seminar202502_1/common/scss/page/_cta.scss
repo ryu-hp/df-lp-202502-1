@@ -13,14 +13,19 @@ CTA
 }
 .cta_btn {
   position: absolute;
-  left: calc(91 / 750 * 100vw);
-  bottom: calc(60 / 575 * 100%);
-  width: calc(322 / 750 * 100%);
+  left: calc(275 / 1200 * 100vw);
+  bottom: calc(75 / 672 * 100%);
+  width: calc(369 / 1200 * 100%);
 }
 .cta_head_bt {
-  max-width: 200px;
+  max-width: 320px;
 }
 @media screen and (max-width:767px) {
+  .cta_btn {
+    left: calc(91 / 750 * 100vw);
+    bottom: calc(60 / 575 * 100%);
+    width: calc(322 / 750 * 100%);
+  }
   .cta_head_bt {
     max-width: 130px;
   }
