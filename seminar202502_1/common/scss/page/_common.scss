@@ -41,7 +41,7 @@ header .cta_head_bt img{
   content: "";
   display: block;
   width: 100%;
-  padding-top: calc(132 / 750 * 100%);
+  padding-top: calc(147 / 1200 * 100%);
 }
 .head_bg > p {
   top: 50%;
@@ -53,6 +53,15 @@ header .cta_head_bt img{
   text-align: center;
   width: 100%;
   font-family: "Yu Mincho", "游明朝", serif;
+  font-size: calc(40 / 1200 * 100vw);
+}
+@media screen and (max-width:767px) {
+  .head_bg::before {
+    padding-top: calc(132 / 750 * 100%);
+  }
+  .head_bg > p {
+    font-size: calc(14 / 750 * 100vw);
+  }
 }
 // 画像設定
 .pic {
@@ -89,23 +98,23 @@ header .cta_head_bt img{
   background-repeat: no-repeat;
 }
 // CTA前矢印
-.add-arrow {
-  position: relative;
-}
-.add-arrow::before {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -2px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 24px;
-  height: 14px;
-  clip-path: polygon(0 0, 100% 0%, 50% 100%);
-  box-sizing: border-box;
-  background: $color-white;
-  z-index: 1;
-}
+// .add-arrow {
+//   position: relative;
+// }
+// .add-arrow::before {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   bottom: -2px;
+//   left: 50%;
+//   transform: translateX(-50%);
+//   width: 24px;
+//   height: 14px;
+//   clip-path: polygon(0 0, 100% 0%, 50% 100%);
+//   box-sizing: border-box;
+//   background: $color-white;
+//   z-index: 1;
+// }
 // カラー
 .text-color-blue {
   color: #4e73ee;

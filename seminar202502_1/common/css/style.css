@@ -222,7 +222,7 @@ header .cta_head_bt img {
   content: "";
   display: block;
   width: 100%;
-  padding-top: 17.6%;
+  padding-top: 12.25%;
 }
 
 .head_bg > p {
@@ -236,8 +236,17 @@ header .cta_head_bt img {
   text-align: center;
   width: 100%;
   font-family: "Yu Mincho", "游明朝", serif;
+  font-size: 3.3333333333vw;
 }
 
+@media screen and (max-width: 767px) {
+  .head_bg::before {
+    padding-top: 17.6%;
+  }
+  .head_bg > p {
+    font-size: 1.8666666667vw;
+  }
+}
 .pic {
   max-width: 864px;
   margin-right: auto;
@@ -275,28 +284,6 @@ header .cta_head_bt img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.add-arrow {
-  position: relative;
-}
-
-.add-arrow::before {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -2px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 24px;
-  height: 14px;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%);
-          clip-path: polygon(0 0, 100% 0%, 50% 100%);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background: #fff;
-  z-index: 1;
 }
 
 .text-color-blue {
