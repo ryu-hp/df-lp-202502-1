@@ -707,7 +707,7 @@ header .cta_head_bt img {
     padding: 0;
   }
 }
-.pic {
+.pic22 {
   padding-bottom: 0 30px 97px;
 }
 
@@ -729,7 +729,7 @@ header .cta_head_bt img {
 }
 
 @media screen and (max-width: 767px) {
-  .pic {
+  .pic22 {
     padding: 0 20px 40px;
   }
 }
