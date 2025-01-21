@@ -382,7 +382,7 @@ header .cta_head_bt img {
 }
 .pic05 {
   padding-bottom: 5.3240740741%;
-  margin-top: -22.4166666667%;
+  margin-top: -14.4166666667%;
 }
 
 .pic05::before {
@@ -441,7 +441,7 @@ header .cta_head_bt img {
   }
 }
 .pic08 {
-  padding: 96 30px 152px;
+  padding: 96px 30px 152px;
   background-image: url(../img/bg-3-PC.webp);
   background-size: cover;
   background-position: bottom center;
