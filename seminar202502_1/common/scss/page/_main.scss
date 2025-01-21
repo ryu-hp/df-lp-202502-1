@@ -357,12 +357,15 @@
     text-align: center;
     padding: 70px 30px 64px;
 }
-.pic17-body p:nth-child(1){
+.pic17-body p {
+    line-height: 2;
     font-size: 16px;
+    font-family: "Yu Mincho", "游明朝", serif;
+}
+.pic17-body p:nth-child(1){
     margin-bottom: 60px;
 }
 .pic17-body p:nth-child(2){
-    font-size: 16px;
     line-height: 2;
     text-align: right;
 }
