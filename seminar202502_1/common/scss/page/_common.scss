@@ -96,3 +96,17 @@ header .cta_head_bt img{
 .text-color-blue {
   color: #4e73ee;
 }
+// pic レイアウト
+.pic {
+  max-width: 864px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.pic.cta_pic {
+  max-width: 100%;
+}
+@media screen and (max-width:767px) {
+  .pic {
+    max-width: 100%;
+  }
+}
