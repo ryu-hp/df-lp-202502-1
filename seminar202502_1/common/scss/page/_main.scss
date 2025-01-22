@@ -103,6 +103,9 @@
     width: 100%;
     padding-top: calc(269 / 1200 * 100%);
 }
+.pic05 .pic {
+    max-width: 700px;
+}
 @media screen and (max-width:767px) {
     .pic05 {
         margin-top:calc(-147 / 750 * 100%);
@@ -129,6 +132,9 @@
 .pic06-body > .pic {
     padding-bottom: calc(90 / 864 * 100%);
     padding-top: calc(97 / 864 * 100%);
+}
+.pic06 .pic {
+    max-width: 700px;
 }
 @media screen and (max-width:767px) {
     .pic06 {
@@ -169,6 +175,9 @@
     background-position:bottom center;
     background-repeat: no-repeat;
 }
+.pic08 .pic {
+    max-width: 700px;
+}
 @include mq(md) {
     .pic08 {
         background-image: url(../img/bg-3.webp);
@@ -199,6 +208,9 @@
     margin-top: 85px;
     padding-bottom: 97px;
 }
+.pic09 .pic {
+    max-width: 600px;
+}
 @include mq(md) {
     .pic09 {
         margin-top: 20px;
@@ -223,6 +235,9 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 97px 30px 67px;
+}
+.pic10-body > .pic {
+    max-width: 600px;
 }
 .pic10-cta {
     margin-top: 100px;
@@ -259,6 +274,10 @@
 .pic11-body {
     padding: 100px 30px;
 }
+
+.pic11 .pic {
+    max-width: 700px;
+}
 @include mq(md) {
     .pic11-body {
         padding: 40px 30px;
@@ -268,6 +287,9 @@
 .pic12-body {
     padding: 100px 30px;
     background-color: #eef2fc;
+}
+.pic12 .pic {
+    max-width: 700px;
 }
 @include mq(md) {
     .pic12-body {
@@ -281,6 +303,10 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+    }
+
+    .pic13 .pic {
+        max-width: 700px;
     }
     @include mq(md) {
         .pic13-body {

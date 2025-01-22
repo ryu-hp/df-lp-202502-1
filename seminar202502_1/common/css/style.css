@@ -413,6 +413,10 @@ header .cta_head_bt img {
   padding-top: 22.4166666667%;
 }
 
+.pic05 .pic {
+  max-width: 700px;
+}
+
 @media screen and (max-width: 767px) {
   .pic05 {
     margin-top: -19.6%;
@@ -441,6 +445,10 @@ header .cta_head_bt img {
 .pic06-body > .pic {
   padding-bottom: 10.4166666667%;
   padding-top: 11.2268518519%;
+}
+
+.pic06 .pic {
+  max-width: 700px;
 }
 
 @media screen and (max-width: 767px) {
@@ -481,6 +489,10 @@ header .cta_head_bt img {
   background-repeat: no-repeat;
 }
 
+.pic08 .pic {
+  max-width: 700px;
+}
+
 @media screen and (max-width: 767px) {
   .pic08 {
     background-image: url(../img/bg-3.webp);
@@ -512,6 +524,10 @@ header .cta_head_bt img {
   padding-bottom: 97px;
 }
 
+.pic09 .pic {
+  max-width: 600px;
+}
+
 @media screen and (max-width: 767px) {
   .pic09 {
     margin-top: 20px;
@@ -536,6 +552,10 @@ header .cta_head_bt img {
   background-position: center;
   background-repeat: no-repeat;
   padding: 97px 30px 67px;
+}
+
+.pic10-body > .pic {
+  max-width: 600px;
 }
 
 .pic10-cta {
@@ -576,6 +596,10 @@ header .cta_head_bt img {
   padding: 100px 30px;
 }
 
+.pic11 .pic {
+  max-width: 700px;
+}
+
 @media screen and (max-width: 767px) {
   .pic11-body {
     padding: 40px 30px;
@@ -584,6 +608,10 @@ header .cta_head_bt img {
 .pic12-body {
   padding: 100px 30px;
   background-color: #eef2fc;
+}
+
+.pic12 .pic {
+  max-width: 700px;
 }
 
 @media screen and (max-width: 767px) {
@@ -597,6 +625,10 @@ header .cta_head_bt img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.pic13 .pic {
+  max-width: 700px;
 }
 
 @media screen and (max-width: 767px) {
